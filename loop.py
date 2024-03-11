@@ -20,3 +20,7 @@ while i <= 10:
 for letter in "Power Learn Project": # continue when letter is 'h'
  if letter == "a": continue
 print("Current letter :", letter)
+
+num = [20, 30, 40, 50]
+pay = [value * 2 for value in num]
+print(pay)
